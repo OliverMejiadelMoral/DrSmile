@@ -278,6 +278,24 @@
 /* RESPONSIVE MEDIA */
 
 @media only screen and (max-width: 767px) {
+    
+    #menu-wrapper {
+        padding: 0;
+      }
+    
+      #menu ul {
+        flex-direction: column;
+      }
+    
+      #menu li {
+        margin-bottom: 10px;
+      }
+    
+      #menu a {
+        padding: 10px 0;
+        font-size: 16px;
+      }
+    
     .container {
         width: 90%;
     }
